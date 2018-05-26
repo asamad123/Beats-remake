@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/favicon.png">
     <title>Beats | Music Reimagined</title>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
@@ -29,13 +31,13 @@
     </nav>
     <header class="shape-changer ">
       <div class="showcase-content ">
-        <aside class="left">
+        <aside class="left animated slideInLeft">
           <h1>Outstanding <br>Clarity</h1>
           <h2>Audio <br>Precision</h2>
           <h5>Get 25% Of Our Product</h5>
           <a class="showcase-btn" href="https://www.apple.com/uk/shop/accessories/all-accessories/beats" target="_blank">Pre-Order</a>
         </aside>
-        <aside class="right">
+        <aside class="right animated slideInRight">
           <img class="showcase-img "src="img/show-case-img.svg" alt="">
         </aside>
         <a class="showcase-btn-down" href="#"><img src="" alt=""><i class="fas fa-chevron-down"></i></a>
@@ -55,7 +57,7 @@
               <img src="img/rose-gold.png" alt="">
             </div>
           </div>
-      
+
           <div class="layer top">
               <div class="content-wrap">
                 <div class="content-body">
@@ -71,14 +73,14 @@
   <section class="trailer">
     <div class="wrapper">
       <h2>Experience The Music Designed For The Ear</h2>
-      <iframe width="900" height="450" src="https://www.youtube.com/embed/ERuONiY5Gz0?rel=0&showinfo=0&autohide=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen autohide=1></iframe>
+      <iframe data-aos="fade-left"  data-aos-duration="1000" width="900" height="450" src="https://www.youtube.com/embed/ERuONiY5Gz0?rel=0&showinfo=0&autohide=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen autohide=1></iframe>
     </div>
   </section>
 
-  <section class="other-products">
+  <section  class="other-products">
     <div class="wrapper">
       <h4 class="">Other Ways To Listen</h4>
-      <div class="boxes">
+      <div class="boxes" data-aos="fade-up"  data-aos-duration="1000">
         <div class="box box-1">
           <p>Beats X</p>
           <img src="img/beats-x.png" alt="">
@@ -127,11 +129,8 @@
     </div>
   </footer>
 
-
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 <script src="main.js"></script>
 

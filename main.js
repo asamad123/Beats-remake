@@ -39,3 +39,6 @@ document.addEventListener('DOMContentLoaded', function(){
   submit.addEventListener('click', function(){
     alert("This website is only UI no backend sorry :(");
   })
+
+
+  AOS.init();
