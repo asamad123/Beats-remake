@@ -461,4 +461,13 @@ footer .wrapper i:hover {
     height: 300px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   }
+  .newsletter .center-box .box input {
+    width: 20em;
+    height: 20px;
+    padding: 10px;
+    text-indent: 10px;
+  }
+  .newsletter .center-box .box .btn-newsletter {
+    padding: 0 5px;
+  }
 }

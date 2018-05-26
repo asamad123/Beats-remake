@@ -524,5 +524,19 @@ footer{
         }
 
     }
-
+    .newsletter{
+        .center-box{
+            .box{
+                input{
+                    width: 20em;
+                    height: 20px;
+                    padding: 10px;
+                    text-indent: 10px;
+                }
+                .btn-newsletter{
+                    padding: 0 5px;
+                }
+            }
+        }
+    }
 }
