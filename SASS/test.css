@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/*###########*/
+/* RESET CSS */
+/*###########*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    will-change: transform;
+}
+/*###########*/
+/* CONTENT */
+/*###########*/
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+}
+.main {
+    height: 100vh;
+    font-size: 3.5rem;
+    background-size: cover;
+    background:red;
+}
+.navbar {
+    position: relative;
+    color: white;
+    background-color: #252323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    
+}
+.navbar__button {
+    height: 2.5rem;
+    width: 2.5rem;
+    padding: 1rem 0.2rem 0rem 0.2rem;
+}
+.navbar__button span {
+    display: block;
+    background-color: #6E7DAB;
+    height: 0.2rem;
+}
+.navbar__button span:nth-of-type(2) {
+    margin-top: 0.6rem;
+}
+.navbar__button span:nth-of-type(3) {
+    margin-top: 0.6rem;
+}
+
+.navbar__text h4 {
+    padding: 0.5rem;
+    text-align: right;
+    font-size: 1.8rem;
+}
+.navbar__slider {
+    position: absolute;
+    left: -20rem;
+    width: 20rem;
+    height: 100vh;
+    background-color: #6E7DAB;
+    transition: all 0.3s ease-out;
+}
+input {
+    display: none;
+}
+input:checked + .navbar__slider {
+    transition: all 0.3s ease-out;
+    left: 0;
+}
+.navbar__slider--item a {
+    font-weight: 500; 
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+
+article h1 {
+    animation: Iulian 2s;
+}
+@keyframes Iulian {
+    0% {
+        transform: translateY(-1000px);
+        }
+    }
+
+
+@keyframes Razvan {
+    0% {
+        transform: translateY(-1000px);
+    }
+}
+
+footer {
+    color: white;
+    font-size: 1.5rem;
+    text-align: right;
+    transform: translateY(-130px);
+}
+
+.navbar__text h1 {
+    font-size: 3rem;
+}
+
+article h5 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.text__mijloc {
+    z-index: -1;
+    color: white;
+    background-color: #53687E;
+}
+
+.text__mijloc h5 {
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 1.2rem;
+}
+
+.navbar__slider{
+    z-index: 99;
+}
+
+.showcase{
+    z-index: -1;
+    background: blue;
+
+}

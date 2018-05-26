@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.391 53.078">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-width: 7px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="searchbar" transform="translate(-1578 -33)">
+    <g id="Ellipse_4" data-name="Ellipse 4" class="cls-1" transform="translate(1578 33)">
+      <circle class="cls-3" cx="21" cy="21" r="21"/>
+      <circle class="cls-4" cx="21" cy="21" r="17.5"/>
+    </g>
+    <path id="Path_1" data-name="Path 1" class="cls-2" d="M0,0H6.012V25.15H0Z" transform="matrix(0.719, -0.695, 0.695, 0.719, 1609.596, 67.987)"/>
+  </g>
+</svg>
