@@ -40,11 +40,6 @@ nav .icons {
   flex-direction: row;
 }
 
-nav .icons .search-bar {
-  height: 20px;
-  margin-right: 50px;
-}
-
 nav .icons i {
   color: white;
   font-size: 25px;

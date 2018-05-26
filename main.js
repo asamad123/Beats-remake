@@ -2,7 +2,7 @@
 $(document).ready(function(){
   $(window).scroll(function(){
   	var scroll = $(window).scrollTop();
-	  if (scroll > 1250) {
+	  if (scroll > 500) {
       $("nav").css("background" , "#ED5D57");
 	  }
 
